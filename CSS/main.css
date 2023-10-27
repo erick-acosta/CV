@@ -1,17 +1,21 @@
 :root {
     --theme-color: white;
     --primary-color: #124f88;
-    --secondary-color: #f7c331;
+    --secondary-color: #5cc1d6;
     --text-color-inverse: white;
     --text-color: black;
     --navbar-shallow-color: #e5e5e5;
-    --menu-mobilr-background-color: #3a4460;
+    --menu-mobilr-background-color: #4e4e4e;
 
 }
 
+section[id] {
+    scroll-margin-top:  70px;
+}
 
-
-
+html{
+    scroll-behavior: smooth;
+}
 
 
 

@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./CSS/navbar.css">
     <link rel="stylesheet" href="./CSS/profile.css">
     <link rel="stylesheet" href="./CSS/skills.css">
+    <link rel="stylesheet" href="./CSS/experience.css">
+    <link rel="stylesheet" href="./CSS/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
@@ -18,10 +20,11 @@
 </head>
 
 <body>
+    <!-- seccion navbar -->
     <header class="topheader">
         <nav class="topnav">
             <a href="#" class="logo">
-                <img height="50px" width="50px" src="./IMG/erick1.jfif" alt="programador" />
+                <img height="50px" width="50px" src="./IMG/2.jpg" alt="programador" />
                 <div>
                     Erick Acosta <br>
                     Front-End Developer
@@ -41,22 +44,23 @@
             </ul>
         </nav>
     </header>
+
+<!-- seccion perfil -->
+
 <div class="horizontal-padding vertical-padding">
-    <section class="profile">
+    <section class="profile" id="profile">
         <div class="profile-info">
             <h1 class="profile-title"> Hola, soy <br>Erick Acosta</h1>
-            <p class="profile-details">Soy un desarrollador frontend apasionado por crear interfaces web atractivas y
-                funcionales. participando en una variedad de proyectos desde sitios web simples hasta aplicaciones
-                complejas.
+            <p class="profile-details">Soy un desarrollador front-end con pasión por crear experiencias web atractivas y útiles. He trabajado en una variedad de proyectos, desde sitios web simples hasta aplicaciones complejas. Tengo experiencia en las principales tecnologías front-end, como HTML, CSS, JavaScript, ReactJS y Angular. Estoy constantemente aprendiendo y mejorando mis habilidades para estar al día con las últimas tendencias tecnológicas..
 
             </p>
             <button class="profile-btn">
-                Descargar cv
+                Mas Info.
             </button>
 
         </div>
         <spam class="profile-img-section">
-            <img class="profile-img" src="./IMG/erick1.jfif" alt="programador">
+            <img class="profile-img" src="./IMG/1.jpg" alt="programador">
         
         <div class="profile-img-line">
         </div>
@@ -64,9 +68,58 @@
     </section>
 </div>
 
+<!-- seccion informacion -->
+
+<section class="experiences" id="experience">
+    <img src="./IMG/wave.svg" alt="division" class="wave">
+        <div class="experiences-body">
+            <h2 class="experiencies-title">Experiencia</h2>
+            <div class="experiences-grid">
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">2023</div>
+                    <div class="experience-company">ST Digital Computer</div>
+                    <div class="experience-position">Desarrollador de Front-end</div>
+                    <div class="experience-description">Responsable de crear la apariencia y la funcionalidad de las interfaces de usuario de los productos. Para ello, diseño e implemento interfaces de usuario web y móviles, implemento animaciones y efectos visuales, colaboro con el equipo de desarrolladores back-end para crear nuevas API, integro diferentes tecnologías y bibliotecas, y trabajo con diseñadores y desarrolladores back-end</div>
+                </div>
+                
+                <div class="experience">
+                    <div class="experience-date">2020- 2023</div>
+                    <div class="experience-company">Profesional Independiente</div>
+                    <div class="experience-position">Desarrollador de Front-end</div>
+                    <div class="experience-description">Desarrollo y mantenimiento de sitios web y aplicaciones web diseñar e implementar interfaces web y aplicaciones móviles utilizando html5, css, javascript y frameworks como react, angular.trabajar con diseñadores para crear interfaces de usuario atractivas y funcionales. Trabajo con diseñadores para crear prototipos y diseños</div>
+                    
+                    
+                </div>
+                <div class="line"></div>
+                    <div class="empty"></div>
+                    <div class="empty"></div>
+                    <div class="line"></div>
+                    
+                    <div class="experience">
+                    
+
+                    <div class="experience-date">2018- 2020</div>
+                    <div class="experience-company"> Banco Plaza</div>
+                    <div class="experience-position">Coordinador de Distribución </div>
+                    <div class="experience-description">Encargado del área de adiestramiento de personal de la red de agencias del banco plaza, inducciones y evaluaciones constantes para garantizar el cumplimiento de los manuales y procedimientos establecidos por la institución. generación de base de datos y control de las operaciones de las agencias, generacion de reportes para entes gubernamentales, BCV y Sudeban. Encargado del será de distribución de plástico de TDC y TDD a la red de agencias. Manejo de inventario y centros de costos.</div>
+                </div>
+            
+                
+                           
+                
+                
+        </div>
+    <img src="./IMG/wave.svg" alt="division" class="wave wave-bottom">
+
+</section>
+</div>      
+
+<!-- seccion habilidades-->
 
 <div class="horizontal-padding vertical-padding">
-    <section class="skills">
+    <section class="skills" id="skills">
         <h2 class="skills-title">Habilidades</h2>
         <ul class="skills-list">
             <li class="skills-skills">HTML</li>
@@ -79,6 +132,63 @@
     </section>
 
 </div>
+
+<!-- seccion Contacto-->
+<div class="horizontal-padding vertical-padding">
+    <section class="contact" id="contact">
+      <h2 class="contact-title">Contacto</h2>
+      <div class="contact-details">
+        <div class="contact-details-group">
+          <p class="contact-label">Dirección:</p>
+          <p class="contact-text">Caracas, Venezuela</p>
+        </div>
+        <div class="contact-details-group">
+          <p class="contact-label">Email:</p>
+          <p class="contact-text">eaacdev@gmail.com</p>
+        </div>
+        <div class="contact-details-group">
+          <p class="contact-text">
+            Deje su mensaje y con gusto le responderé
+          </p>
+        </div>
+      </div>
+      <form class="contact-form" name="contact" netlify>
+        <div class="contact-form-group">
+          <label for="name">Nombre</label>
+          <input required type="text" name="name" id="name" />
+        </div>
+        <div class="contact-form-group">
+          <label for="email">Email</label>
+          <input required type="email" name="email" id="email" />
+        </div>
+        <div class="contact-form-group">
+          <label for="message">Mensaje</label>
+          <textarea required name="message" id="message" rows="6"></textarea>
+        </div>
+
+        <button type="submit" class="contact-form-submit">Enviar</button>
+      </form>
+      <nav class="social">
+        <ul class="social-list">
+       
+         
+          <li>
+            <a href="#" class="social-link">
+              <img src="img/github.svg" alt="github profile" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="social-link"
+            >
+              <img src="img/linkedin.svg" alt="linkedin profile" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </div>
 </body>
 
 </html>
