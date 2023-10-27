@@ -46,6 +46,12 @@
 
 
 }
+
+.profile-btn a{
+    color: var(--text-color-inverse) ;
+}
+
+
 .profile-btn:hover{
     filter: brightness(130%) ;
 }
