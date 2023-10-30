@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
 .contact {
     background-color: var(--primary-color);
     color: var(--text-color-inverse);
@@ -71,7 +73,7 @@
   
   .social-list {
     list-style: none;
-  
+    color: var(--theme-color);
     display: flex;
     gap: 25px;
     justify-content: center;
@@ -79,6 +81,7 @@
   
   .social-list img {
     height: 25px;
+    color: var(--theme-color);
   }
   
   .social-list img:hover {
